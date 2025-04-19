@@ -4,6 +4,10 @@
   --font-sans: 'Space Grotesk', sans-serif;
 }
 
+input {
+  @apply border border-gray-300 rounded-lg p-2 hover:border-[#600594];
+}
+
 @font-face {
   font-family: 'Space Grotesk';
   src: url('./assets/fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
